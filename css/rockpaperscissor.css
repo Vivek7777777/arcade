@@ -1,0 +1,209 @@
+*{
+    transition: .3s;
+}
+
+.maingame{
+    /*border: 2px solid black;*/ 
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.791);
+    /* min-height: auto; */
+    /* height: auto; */
+    height: 80%;
+    width: 85%;
+    margin: 20px auto 0;
+    /* background-color: rgba(255, 228, 196, 0.592); */
+    background-color: rgb(251, 254, 222);
+    /* background: linear-gradient(217deg, rgb(255, 0, 212), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgb(1, 255, 225), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgb(9, 255, 0), rgba(0,0,255,0) 70.71%); */
+}
+
+
+/* heading */
+
+.boxtop{
+    display: flex;
+    position: relative;
+    flex-direction: row;        
+    /*border: 2px solid black;*/ 
+    width: 95%;
+    margin: 0 auto ;
+}
+
+.playername{
+    display: flex;
+    /*border: 2px solid black;*/ 
+    width: 40%;
+    margin: 5px auto;    
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+/* icon and main box */
+
+.bigbox{
+    display: flex;
+    /*border: 2px solid black;*/ 
+    height: 80%;
+    margin: 0px auto;
+    width: 95%;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid black;*/ 
+    /* height: 90%; */
+    width: 45%;
+    height: 100%;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    font-size: 140px; 
+    /*border: 2px solid black;*/
+    width: 80%;
+}
+
+#rock , #paper , #scissor , #crock , #cpaper , #cscissor{   
+    /*border: 2px solid black;*/
+    border-radius: 500px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.iconb{
+    transform: scaleX(-1);
+}
+
+#icon3>span{
+    transform: scaleX(-1) rotate(-90deg); 
+}
+
+#icon6>span{
+    transform: scaleX(-1) rotate(-90deg); 
+}
+
+.icononclick{
+    font-size: 250px;
+    margin: auto;
+}
+
+.hideicononclick{
+    display: none;
+}
+
+
+/* scores */
+.boxbottom{
+    margin: 5px auto 0px;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.winscore{
+    /*border: 2px solid black;*/
+    padding: 2px 10px;
+    margin: 0 10px ;
+}
+
+.losescore{
+    /*border: 2px solid black;*/ 
+    padding: 2px 10px;
+    margin: 0 10px;
+}
+
+hr{
+    height: 0px;
+    border: 1px solid black;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .icon{
+        font-size: 110px;
+    }
+    .icononclick{
+        font-size: 170px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .maingame{
+        width: calc(100% - 20px);
+        height: 500px;
+    }
+    .bigbox{
+        height: 75%;
+    }
+    .score{
+        margin: 17px auto 0px ;
+    }
+    .icon{
+        font-size: 110px; 
+    }
+    .icononclick{
+        font-size: 170px;
+    }
+}
+
+@media screen and (max-width: 603px) {
+    .icon{
+        font-size: 100px; 
+    }
+    .score{
+        width: 50%;
+        font-size: 15px;
+    }
+    .icononclick{
+        font-size: 140px;
+    }
+}
+
+@media screen and (max-width: 514px) {
+    .playername{
+        font-size: 20px;
+    }
+    .maingame{
+        height: auto ;
+    }
+    .bigbox{
+        height: 350px;
+    }
+    .icon{
+        font-size: 90px; 
+    }
+    .score{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .losescore{
+        display: none;
+    }
+    .icononclick{
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .icon{
+        font-size: 70px; 
+    }
+    .icononclick{
+        font-size: 100px;
+    }
+}
