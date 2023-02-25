@@ -1,0 +1,120 @@
+.gamearea {
+  background-color: #9eecf3;
+  width: 85%;
+  margin: auto;
+  background-color: rgba(251, 254, 222, 0.556);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.318);
+
+}
+
+#level-title {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #000000;
+}
+
+.simoncontainer {
+  /* border: 3px solid black; */
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+.row{
+  text-align: center;
+}
+
+.simonbtn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 7px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+
+
+@media screen and (max-width: 555px) {
+
+  #level-title {
+    font-size: 2rem;
+  }
+
+  .simonbtn {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    border: 5px solid black;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+
+  .gamearea {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #level-title {
+    font-size: 2.2rem;
+  }
+  .gamearea {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .gamearea {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 408px) {
+  
+  #level-title {
+    font-size: 1.3rem;
+  }
+  
+  .simonbtn {
+    height: 120px;
+    width: 120px;
+    margin: 8px;
+    border: 5px solid black;
+  }
+}
