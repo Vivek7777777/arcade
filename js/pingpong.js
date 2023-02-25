@@ -33,7 +33,7 @@ m=n=250
 //ball position
 x=440;y=150;
 //ball velocity 
-u=-5;v=3
+u=-7;v=3
 setInterval(function(){
     if(w&&!s)
         return;
@@ -82,14 +82,14 @@ setInterval(function(){
         b++;
         x=460;
         y=285;
-        u=5;
+        u=7;
         w=1;
     }
     if(x>900){
         a++;
         x=430;
         y=285;
-        u=-5;
+        u=-7;
         w=1;
     }
     //score position

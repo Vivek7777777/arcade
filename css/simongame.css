@@ -13,11 +13,11 @@
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
+  margin-top: 20px;
   color: #000000;
 }
 
 .simoncontainer {
-  /* border: 3px solid black; */
   display: block;
   width: auto;
   margin: auto;
