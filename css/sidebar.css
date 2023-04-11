@@ -5,8 +5,12 @@
 }
 
 body{
-  /* background-color: #fad998; */
-  background-color: #d9baf0;
+    background-image: url(../images/gamebg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 .container{
