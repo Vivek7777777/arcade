@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(255, 255, 255, 0) 40%) , url(../images/starting.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.blur {
+    /* animation: changeWi   dth 8s ease-in-out infinite; */
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(2px); 
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: end;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(77 76 79);
+    /* color: rgb(179, 158, 158);
+    text-shadow: 1px 1px 4px #ffffff; */
+    /* border: 2px solid white; */
+    margin: 0 0px 5px 10px;
+    font-size: 30px;
+}
